@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ProductCRUD.Domain.Entities
+{
+    public class Product : Entity
+    {
+        public string Name { get; set; } = null!;
+        public decimal Price { get; set; }
+    }
+}

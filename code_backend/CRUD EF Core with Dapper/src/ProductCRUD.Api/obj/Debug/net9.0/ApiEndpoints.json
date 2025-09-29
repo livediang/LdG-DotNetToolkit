@@ -1,0 +1,107 @@
+[
+  {
+    "ContainingType": "ProductCRUD.Api.Controllers.ProductController",
+    "Method": "Query",
+    "RelativePath": "api/Product",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortDesc",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductCRUD.Api.Controllers.ProductController",
+    "Method": "Create",
+    "RelativePath": "api/Product",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ProductCRUD.Application.DTOs.ProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductCRUD.Api.Controllers.ProductController",
+    "Method": "Get",
+    "RelativePath": "api/Product/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductCRUD.Api.Controllers.ProductController",
+    "Method": "Update",
+    "RelativePath": "api/Product/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "ProductCRUD.Application.DTOs.ProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductCRUD.Api.Controllers.ProductController",
+    "Method": "Delete",
+    "RelativePath": "api/Product/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

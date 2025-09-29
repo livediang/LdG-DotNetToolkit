@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Virtu\\OneDrive\\Documents\\GitHub\\DotNET-CodeUtilities\\code_backend\\CRUD EF Core with Dapper\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4AECB3EE-AEB4-4942-BB44-7E3702AFAA8C}|src\\ProductCRUD.Api\\ProductCRUD.Api.csproj|c:\\users\\virtu\\onedrive\\documents\\github\\dotnet-codeutilities\\code_backend\\crud ef core with dapper\\src\\productcrud.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AECB3EE-AEB4-4942-BB44-7E3702AFAA8C}|src\\ProductCRUD.Api\\ProductCRUD.Api.csproj|solutionrelative:src\\productcrud.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AECB3EE-AEB4-4942-BB44-7E3702AFAA8C}|src\\ProductCRUD.Api\\ProductCRUD.Api.csproj|c:\\users\\virtu\\onedrive\\documents\\github\\dotnet-codeutilities\\code_backend\\crud ef core with dapper\\src\\productcrud.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AECB3EE-AEB4-4942-BB44-7E3702AFAA8C}|src\\ProductCRUD.Api\\ProductCRUD.Api.csproj|solutionrelative:src\\productcrud.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Virtu\\OneDrive\\Documents\\GitHub\\DotNET-CodeUtilities\\code_backend\\CRUD EF Core with Dapper\\src\\ProductCRUD.Api\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "src\\ProductCRUD.Api\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Virtu\\OneDrive\\Documents\\GitHub\\DotNET-CodeUtilities\\code_backend\\CRUD EF Core with Dapper\\src\\ProductCRUD.Api\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "src\\ProductCRUD.Api\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAwwFAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:34:58.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Virtu\\OneDrive\\Documents\\GitHub\\DotNET-CodeUtilities\\code_backend\\CRUD EF Core with Dapper\\src\\ProductCRUD.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\ProductCRUD.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Virtu\\OneDrive\\Documents\\GitHub\\DotNET-CodeUtilities\\code_backend\\CRUD EF Core with Dapper\\src\\ProductCRUD.Api\\Program.cs",
+              "RelativeToolTip": "src\\ProductCRUD.Api\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAwwBIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:06:19.533Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+C:\Users\Virtu\OneDrive\Documents\GitHub\DotNET-CodeUtilities\code_backend\CRUD EF Core with Dapper\src\ProductCRUD.Application\bin\Debug\net9.0\ProductCRUD.Application.deps.json
+C:\Users\Virtu\OneDrive\Documents\GitHub\DotNET-CodeUtilities\code_backend\CRUD EF Core with Dapper\src\ProductCRUD.Application\bin\Debug\net9.0\ProductCRUD.Application.dll
+C:\Users\Virtu\OneDrive\Documents\GitHub\DotNET-CodeUtilities\code_backend\CRUD EF Core with Dapper\src\ProductCRUD.Application\bin\Debug\net9.0\ProductCRUD.Application.pdb
+C:\Users\Virtu\OneDrive\Documents\GitHub\DotNET-CodeUtilities\code_backend\CRUD EF Core with Dapper\src\ProductCRUD.Application\bin\Debug\net9.0\ProductCRUD.Domain.dll
+C:\Users\Virtu\OneDrive\Documents\GitHub\DotNET-CodeUtilities\code_backend\CRUD EF Core with Dapper\src\ProductCRUD.Application\bin\Debug\net9.0\ProductCRUD.Domain.pdb
+C:\Users\Virtu\OneDrive\Documents\GitHub\DotNET-CodeUtilities\code_backend\CRUD EF Core with Dapper\src\ProductCRUD.Application\obj\Debug\net9.0\ProductCRUD.Application.csproj.AssemblyReference.cache
+C:\Users\Virtu\OneDrive\Documents\GitHub\DotNET-CodeUtilities\code_backend\CRUD EF Core with Dapper\src\ProductCRUD.Application\obj\Debug\net9.0\ProductCRUD.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Virtu\OneDrive\Documents\GitHub\DotNET-CodeUtilities\code_backend\CRUD EF Core with Dapper\src\ProductCRUD.Application\obj\Debug\net9.0\ProductCRUD.Application.AssemblyInfoInputs.cache
+C:\Users\Virtu\OneDrive\Documents\GitHub\DotNET-CodeUtilities\code_backend\CRUD EF Core with Dapper\src\ProductCRUD.Application\obj\Debug\net9.0\ProductCRUD.Application.AssemblyInfo.cs
+C:\Users\Virtu\OneDrive\Documents\GitHub\DotNET-CodeUtilities\code_backend\CRUD EF Core with Dapper\src\ProductCRUD.Application\obj\Debug\net9.0\ProductCRUD.Application.csproj.CoreCompileInputs.cache
+C:\Users\Virtu\OneDrive\Documents\GitHub\DotNET-CodeUtilities\code_backend\CRUD EF Core with Dapper\src\ProductCRUD.Application\obj\Debug\net9.0\ProductCRUD.Application.sourcelink.json
+C:\Users\Virtu\OneDrive\Documents\GitHub\DotNET-CodeUtilities\code_backend\CRUD EF Core with Dapper\src\ProductCRUD.Application\obj\Debug\net9.0\ProductC.9A929D08.Up2Date
+C:\Users\Virtu\OneDrive\Documents\GitHub\DotNET-CodeUtilities\code_backend\CRUD EF Core with Dapper\src\ProductCRUD.Application\obj\Debug\net9.0\ProductCRUD.Application.dll
+C:\Users\Virtu\OneDrive\Documents\GitHub\DotNET-CodeUtilities\code_backend\CRUD EF Core with Dapper\src\ProductCRUD.Application\obj\Debug\net9.0\refint\ProductCRUD.Application.dll
+C:\Users\Virtu\OneDrive\Documents\GitHub\DotNET-CodeUtilities\code_backend\CRUD EF Core with Dapper\src\ProductCRUD.Application\obj\Debug\net9.0\ProductCRUD.Application.pdb
+C:\Users\Virtu\OneDrive\Documents\GitHub\DotNET-CodeUtilities\code_backend\CRUD EF Core with Dapper\src\ProductCRUD.Application\obj\Debug\net9.0\ref\ProductCRUD.Application.dll

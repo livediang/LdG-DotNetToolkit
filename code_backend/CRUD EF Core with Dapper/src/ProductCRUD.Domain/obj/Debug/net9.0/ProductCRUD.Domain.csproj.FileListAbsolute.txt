@@ -1,0 +1,12 @@
+C:\Users\Virtu\OneDrive\Documents\GitHub\DotNET-CodeUtilities\code_backend\CRUD EF Core with Dapper\src\ProductCRUD.Domain\bin\Debug\net9.0\ProductCRUD.Domain.deps.json
+C:\Users\Virtu\OneDrive\Documents\GitHub\DotNET-CodeUtilities\code_backend\CRUD EF Core with Dapper\src\ProductCRUD.Domain\bin\Debug\net9.0\ProductCRUD.Domain.dll
+C:\Users\Virtu\OneDrive\Documents\GitHub\DotNET-CodeUtilities\code_backend\CRUD EF Core with Dapper\src\ProductCRUD.Domain\bin\Debug\net9.0\ProductCRUD.Domain.pdb
+C:\Users\Virtu\OneDrive\Documents\GitHub\DotNET-CodeUtilities\code_backend\CRUD EF Core with Dapper\src\ProductCRUD.Domain\obj\Debug\net9.0\ProductCRUD.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Virtu\OneDrive\Documents\GitHub\DotNET-CodeUtilities\code_backend\CRUD EF Core with Dapper\src\ProductCRUD.Domain\obj\Debug\net9.0\ProductCRUD.Domain.AssemblyInfoInputs.cache
+C:\Users\Virtu\OneDrive\Documents\GitHub\DotNET-CodeUtilities\code_backend\CRUD EF Core with Dapper\src\ProductCRUD.Domain\obj\Debug\net9.0\ProductCRUD.Domain.AssemblyInfo.cs
+C:\Users\Virtu\OneDrive\Documents\GitHub\DotNET-CodeUtilities\code_backend\CRUD EF Core with Dapper\src\ProductCRUD.Domain\obj\Debug\net9.0\ProductCRUD.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Virtu\OneDrive\Documents\GitHub\DotNET-CodeUtilities\code_backend\CRUD EF Core with Dapper\src\ProductCRUD.Domain\obj\Debug\net9.0\ProductCRUD.Domain.sourcelink.json
+C:\Users\Virtu\OneDrive\Documents\GitHub\DotNET-CodeUtilities\code_backend\CRUD EF Core with Dapper\src\ProductCRUD.Domain\obj\Debug\net9.0\ProductCRUD.Domain.dll
+C:\Users\Virtu\OneDrive\Documents\GitHub\DotNET-CodeUtilities\code_backend\CRUD EF Core with Dapper\src\ProductCRUD.Domain\obj\Debug\net9.0\refint\ProductCRUD.Domain.dll
+C:\Users\Virtu\OneDrive\Documents\GitHub\DotNET-CodeUtilities\code_backend\CRUD EF Core with Dapper\src\ProductCRUD.Domain\obj\Debug\net9.0\ProductCRUD.Domain.pdb
+C:\Users\Virtu\OneDrive\Documents\GitHub\DotNET-CodeUtilities\code_backend\CRUD EF Core with Dapper\src\ProductCRUD.Domain\obj\Debug\net9.0\ref\ProductCRUD.Domain.dll

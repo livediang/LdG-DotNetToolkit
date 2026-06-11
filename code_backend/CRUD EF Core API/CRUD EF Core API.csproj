@@ -22,8 +22,7 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
-    <Folder Include="Features\Books\" />
-    <Folder Include="Features\Genres\" />
+    <Folder Include="Features\ObjGenres\" />
   </ItemGroup>
 
 </Project>

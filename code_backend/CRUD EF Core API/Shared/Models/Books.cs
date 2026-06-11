@@ -6,8 +6,8 @@ namespace CRUD_EF_Core_API.Shared.Models
     {
         [Key]
         public int BookId { get; set; }
-        public string Title { get; set; }
-        public string Author { get; set; }
+        public string? Title { get; set; }
+        public string? Author { get; set; }
         public DateOnly YearOfRead { get; set; }
 
         public int GenreId { get; set; }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRUD EF Core API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb6b09b2210dcc3ba9d7c46c7debf858bb6ee8bb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de0987a3a4cd860a6d6ba3a472f93f34616d6be0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRUD EF Core API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRUD EF Core API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

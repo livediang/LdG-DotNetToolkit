@@ -1,6 +1,36 @@
 @CRUD_EF_Core_API_HostAddress = http://localhost:5043
 
-GET {{CRUD_EF_Core_API_HostAddress}}/weatherforecast/
-Accept: application/json
+
+GET {{CRUD_EF_Core_API_HostAddress}}/api/books
+
+###
+
+POST {{CRUD_EF_Core_API_HostAddress}}/api/books
+Content-Type: application/json
+
+{
+  "title": "La Odisea",
+  "author": "Homero",
+  "yearOfRead": "2004-01-01",
+  "genreId": 3
+}
+
+###
+
+PUT {{CRUD_EF_Core_API_HostAddress}}/api/books
+Content-Type: application/json
+
+{
+  "bookId": 8,
+  "title": "La Odisea",
+  "author": "Homero",
+  "yearOfRead": "2016-01-01",
+  "genreId": 3
+}
+
+###
+
+@id=8
+DELETE {{CRUD_EF_Core_API_HostAddress}}/api/books/{{id}}
 
 ###

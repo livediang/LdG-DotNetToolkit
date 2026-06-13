@@ -30,7 +30,7 @@ Content-Type: application/json
 
 ###
 
-@id=8
+@id=10
 DELETE {{CRUD_EF_Core_API_HostAddress}}/api/books/{{id}}
 
 ###

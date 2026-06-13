@@ -1,4 +1,4 @@
 export interface GetGenreResponse {
-    GenreId:number;
-    Name:string
+    genreId:number;
+    name:string;
 }

@@ -9,7 +9,7 @@ import { GetGenreResponse } from '../../../Shared/Interfaces/get-genre-response'
 })
 export class GenresService {
   private http = inject(HttpClient)
-  private endPoint = `${environment}/books`
+  private endPoint = `${environment.apiUrl}/genres`
 
   getAll():Observable<GetGenreResponse[]>{
     return this.http.get<GetGenreResponse[]>(this.endPoint);

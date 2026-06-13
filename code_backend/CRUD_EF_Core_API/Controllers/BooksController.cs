@@ -13,7 +13,7 @@ namespace CRUD_EF_Core_API.Controllers
         {
             var books = await _booksServices.GetAll();
 
-            return Ok(new { Message = "Books retrieved successfully", books });
+            return Ok(books);
         }
 
         [HttpGet("{id}")]
@@ -21,7 +21,7 @@ namespace CRUD_EF_Core_API.Controllers
         {
             var book = await _booksServices.GetById(id);
 
-            return Ok(new { Message = "Book retrieved successfully", book });
+            return Ok(book);
         }
 
         [HttpPost]
@@ -29,7 +29,7 @@ namespace CRUD_EF_Core_API.Controllers
         {
             await _booksServices.Add(request);
 
-            return Ok(new { Message = "Book created successfully" });
+            return Ok();
         }
 
         [HttpPut]
@@ -37,7 +37,7 @@ namespace CRUD_EF_Core_API.Controllers
         {
             await _booksServices.Update(request);
 
-            return Ok(new { Message = "Book updated successfully" });
+            return Ok();
         }
 
         [HttpDelete("{id}")]
@@ -45,7 +45,7 @@ namespace CRUD_EF_Core_API.Controllers
         {
             await _booksServices.Delete(id);
 
-            return Ok(new { Message = "Book deleted successfully" });
+            return Ok();
         }
     }
 }

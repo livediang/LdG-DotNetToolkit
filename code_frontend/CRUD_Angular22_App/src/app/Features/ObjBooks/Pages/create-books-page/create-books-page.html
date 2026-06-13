@@ -1,0 +1,57 @@
+<nav class="navbar bg-body-tertiary mb-4">
+    <div class="container-fluid">
+        <h1 class="navbar-brand">Create Book</h1>
+        <div class="d-flex">
+            <a href="" class="btn btn-warning me-2" routerLink="/">Back</a>
+            <button class="btn btn-success" type="button" (click)="onSave()" [disabled]="booksForm().invalid()">Save</button>
+        </div>
+    </div>
+</nav>
+
+<div class="d-flex justify-content-center">
+    <div class="col-sm-12 col-md-6 col-lg-6">
+        <form>
+            <div class="mb-3">
+                <label class="form-label">Title</label>
+                <input type="text" class="form-control" [formField]="booksForm.Title">
+                @if(booksForm.Title().touched() && booksForm.Title().invalid()){
+                    <small class="text-danger">
+                        {{booksForm.Title().errors()[0].message}}
+                    </small>
+                }
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Author</label>
+                <input type="text" class="form-control" [formField]="booksForm.Author">
+                @if(booksForm.Author().touched() && booksForm.Author().invalid()){
+                    <small class="text-danger">
+                        {{booksForm.Author().errors()[0].message}}
+                    </small>
+                }
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Year of Read</label>
+                <input type="Date" class="form-control" [formField]="booksForm.YearOfRead">
+                @if(booksForm.YearOfRead().touched() && booksForm.YearOfRead().invalid()){
+                    <small class="text-danger">
+                        {{booksForm.YearOfRead().errors()[0].message}}
+                    </small>
+                }
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Genre</label>
+                <select class="form-select" [formField]="booksForm.GenreId">
+                    <option value="0" disabled>--Select Option--</option>
+                    @for (genre of genre(); track genre.genreId) {
+                        <option [value]="genre.genreId">{{genre.name}}</option>
+                    }
+                </select>
+                @if(booksForm.GenreId().touched() && booksForm.GenreId().invalid()){
+                    <small class="text-danger">
+                        {{booksForm.GenreId().errors()[0].message}}
+                    </small>
+                }
+            </div>
+        </form>
+    </div>
+</div>

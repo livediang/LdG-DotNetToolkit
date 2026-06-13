@@ -11,7 +11,7 @@ import { UpdateBookRequest } from '../../../Shared/Interfaces/update-book-reques
 })
 export class BooksService {
   private http = inject(HttpClient)
-  private endPoint = `${environment}/books`
+  private endPoint = `${environment.apiUrl}/books`
 
   getAll():Observable<GetBookResponse[]>{
     return this.http.get<GetBookResponse[]>(this.endPoint);
@@ -30,6 +30,6 @@ export class BooksService {
   }
 
   delete(id:number):Observable<void>{
-    return this.http.get<void>(`${this.endPoint}/${id}`);
+    return this.http.delete<void>(`${this.endPoint}/${id}`);
   }
 }

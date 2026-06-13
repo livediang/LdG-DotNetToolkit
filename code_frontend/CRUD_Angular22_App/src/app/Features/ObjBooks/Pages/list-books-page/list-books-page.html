@@ -1,0 +1,99 @@
+<nav class="navbar bg-body-tertiary mb-4">
+    <div class="container-fluid">
+        <h1 class="navbar-brand">List Library</h1>
+        <div class="d-flex">
+            <a href="" class="btn btn-success me-2" routerLink="/create">Register New Book</a>
+        </div>
+    </div>
+</nav>
+
+<div class="row p-5">
+    <div class="col-sm-12">
+        <div class="card">
+            <div class="card-body">
+                <table class="table table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Title</th>
+                            <th>Author</th>
+                            <th>Year of Read</th>
+                            <th>Genre</th>
+                            <td>Actions</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @for (book of book(); track book.bookId) {
+                            <tr>
+                                <td>{{book.title}}</td>
+                                <td>{{book.author}}</td>
+                                <td>{{book.yearOfRead}}</td>
+                                <td>{{book.genreName}}</td>
+                                <td>
+                                    <button class="btn btn-sm btn-primary" (click)="openModal(modalEdit,book.bookId)">Edit</button>
+                                    <button class="btn btn-sm btn-danger ms-1" (click)="delete(book.bookId)">Delete</button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<ng-template #modalEdit let-modal>
+    <div class="modal-header">
+        <h5 class="modal-title">Edit Book</h5>
+        <button type="button" class="btn-close" (click)="modal.dismiss('c')" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+        <form>
+            <div class="mb-3">
+                <input type="hidden" [formField]="booksForm.BookId">
+                <label class="form-label">Title</label>
+                <input type="text" class="form-control" [formField]="booksForm.Title">
+                @if(booksForm.Title().touched() && booksForm.Title().invalid()){
+                    <small class="text-danger">
+                        {{booksForm.Title().errors()[0].message}}
+                    </small>
+                }
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Author</label>
+                <input type="text" class="form-control" [formField]="booksForm.Author">
+                @if(booksForm.Author().touched() && booksForm.Author().invalid()){
+                    <small class="text-danger">
+                        {{booksForm.Author().errors()[0].message}}
+                    </small>
+                }
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Year of Read</label>
+                <input type="Date" class="form-control" [formField]="booksForm.YearOfRead">
+                @if(booksForm.YearOfRead().touched() && booksForm.YearOfRead().invalid()){
+                    <small class="text-danger">
+                        {{booksForm.YearOfRead().errors()[0].message}}
+                    </small>
+                }
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Genre</label>
+                <select class="form-select" [formField]="booksForm.GenreId">
+                    <option value="0" disabled>--Select Option--</option>
+                    @for (genre of genre(); track genre.genreId) {
+                        <option [value]="genre.genreId">{{genre.name}}</option>
+                    }
+                </select>
+                @if(booksForm.GenreId().touched() && booksForm.GenreId().invalid()){
+                    <small class="text-danger">
+                        {{booksForm.GenreId().errors()[0].message}}
+                    </small>
+                }
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" (click)="saveChanges()" [disabled]="booksForm().invalid()">Save changes</button>
+                <button type="button" class="btn btn-secondary" (click)="modal.close('c')">Close</button>
+            </div>
+        </form>
+    </div>
+</ng-template>

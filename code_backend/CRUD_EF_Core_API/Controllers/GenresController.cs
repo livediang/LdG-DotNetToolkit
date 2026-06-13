@@ -13,7 +13,7 @@ namespace CRUD_EF_Core_API.Controllers
         {
             var genres = await _genresServices.GetAll();
 
-            return Ok(new { Message = "Genres retrieved successfully", genres });
+            return Ok(genres);
         }
     }
 }

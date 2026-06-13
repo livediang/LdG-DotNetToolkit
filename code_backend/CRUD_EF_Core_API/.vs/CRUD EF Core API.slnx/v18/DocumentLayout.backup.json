@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\P32Portfolio\\Portfolio\\LdG-DotNetToolkit\\code_backend\\CRUD_EF_Core_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B65380E-FB93-6CA4-499E-F5396A86164C}|CRUD EF Core API.csproj|c:\\p32portfolio\\portfolio\\ldg-dotnettoolkit\\code_backend\\crud_ef_core_api\\features\\objbooks\\booksservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B65380E-FB93-6CA4-499E-F5396A86164C}|CRUD EF Core API.csproj|solutionrelative:features\\objbooks\\booksservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B65380E-FB93-6CA4-499E-F5396A86164C}|CRUD EF Core API.csproj|c:\\p32portfolio\\portfolio\\ldg-dotnettoolkit\\code_backend\\crud_ef_core_api\\features\\objbooks\\booksrequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B65380E-FB93-6CA4-499E-F5396A86164C}|CRUD EF Core API.csproj|solutionrelative:features\\objbooks\\booksrequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B65380E-FB93-6CA4-499E-F5396A86164C}|CRUD EF Core API.csproj|c:\\p32portfolio\\portfolio\\ldg-dotnettoolkit\\code_backend\\crud_ef_core_api\\features\\objbooks\\booksresponses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B65380E-FB93-6CA4-499E-F5396A86164C}|CRUD EF Core API.csproj|solutionrelative:features\\objbooks\\booksresponses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9B65380E-FB93-6CA4-499E-F5396A86164C}|CRUD EF Core API.csproj|c:\\p32portfolio\\portfolio\\ldg-dotnettoolkit\\code_backend\\crud_ef_core_api\\crud ef core api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{9B65380E-FB93-6CA4-499E-F5396A86164C}|CRUD EF Core API.csproj|solutionrelative:crud ef core api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B65380E-FB93-6CA4-499E-F5396A86164C}|CRUD EF Core API.csproj|c:\\p32portfolio\\portfolio\\ldg-dotnettoolkit\\code_backend\\crud_ef_core_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B65380E-FB93-6CA4-499E-F5396A86164C}|CRUD EF Core API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B65380E-FB93-6CA4-499E-F5396A86164C}|CRUD EF Core API.csproj|c:\\p32portfolio\\portfolio\\ldg-dotnettoolkit\\code_backend\\crud_ef_core_api\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B65380E-FB93-6CA4-499E-F5396A86164C}|CRUD EF Core API.csproj|solutionrelative:controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BooksServices.cs",
-              "DocumentMoniker": "C:\\P32Portfolio\\Portfolio\\LdG-DotNetToolkit\\code_backend\\CRUD_EF_Core_API\\Features\\ObjBooks\\BooksServices.cs",
-              "RelativeDocumentMoniker": "Features\\ObjBooks\\BooksServices.cs",
-              "ToolTip": "C:\\P32Portfolio\\Portfolio\\LdG-DotNetToolkit\\code_backend\\CRUD_EF_Core_API\\Features\\ObjBooks\\BooksServices.cs",
-              "RelativeToolTip": "Features\\ObjBooks\\BooksServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T17:13:27.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BooksRequests.cs",
-              "DocumentMoniker": "C:\\P32Portfolio\\Portfolio\\LdG-DotNetToolkit\\code_backend\\CRUD_EF_Core_API\\Features\\ObjBooks\\BooksRequests.cs",
-              "RelativeDocumentMoniker": "Features\\ObjBooks\\BooksRequests.cs",
-              "ToolTip": "C:\\P32Portfolio\\Portfolio\\LdG-DotNetToolkit\\code_backend\\CRUD_EF_Core_API\\Features\\ObjBooks\\BooksRequests.cs",
-              "RelativeToolTip": "Features\\ObjBooks\\BooksRequests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "GenresController.cs",
+              "DocumentMoniker": "C:\\P32Portfolio\\Portfolio\\LdG-DotNetToolkit\\code_backend\\CRUD_EF_Core_API\\Controllers\\GenresController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GenresController.cs",
+              "ToolTip": "C:\\P32Portfolio\\Portfolio\\LdG-DotNetToolkit\\code_backend\\CRUD_EF_Core_API\\Controllers\\GenresController.cs",
+              "RelativeToolTip": "Controllers\\GenresController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T17:13:21.053Z",
+              "WhenOpened": "2026-06-12T20:41:14.873Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BooksResponses.cs",
-              "DocumentMoniker": "C:\\P32Portfolio\\Portfolio\\LdG-DotNetToolkit\\code_backend\\CRUD_EF_Core_API\\Features\\ObjBooks\\BooksResponses.cs",
-              "RelativeDocumentMoniker": "Features\\ObjBooks\\BooksResponses.cs",
-              "ToolTip": "C:\\P32Portfolio\\Portfolio\\LdG-DotNetToolkit\\code_backend\\CRUD_EF_Core_API\\Features\\ObjBooks\\BooksResponses.cs",
-              "RelativeToolTip": "Features\\ObjBooks\\BooksResponses.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T17:12:20.622Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "CRUD EF Core API.http",
               "DocumentMoniker": "C:\\P32Portfolio\\Portfolio\\LdG-DotNetToolkit\\code_backend\\CRUD_EF_Core_API\\CRUD EF Core API.http",
               "RelativeDocumentMoniker": "CRUD EF Core API.http",
               "ToolTip": "C:\\P32Portfolio\\Portfolio\\LdG-DotNetToolkit\\code_backend\\CRUD_EF_Core_API\\CRUD EF Core API.http",
               "RelativeToolTip": "CRUD EF Core API.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwCAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-06-12T15:53:14.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\P32Portfolio\\Portfolio\\LdG-DotNetToolkit\\code_backend\\CRUD_EF_Core_API\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\P32Portfolio\\Portfolio\\LdG-DotNetToolkit\\code_backend\\CRUD_EF_Core_API\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T01:14:07.353Z",
+              "WhenOpened": "2026-06-12T20:26:15.487Z",
               "EditorCaption": ""
             }
           ]
